@@ -1,0 +1,4 @@
+docker-compose down # Removes the container
+docker-compose down -v # Remove the created volumes as well
+docker-compose up -d # -d will run the compose file in background
+docker-compose build # This will just build an image

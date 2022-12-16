@@ -38,3 +38,6 @@ services:
 networks:
   overlay:
 
+volumes:
+  master-data:
+
